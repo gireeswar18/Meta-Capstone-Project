@@ -1,59 +1,58 @@
 import logo from "../assets/Logo.svg";
-import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <img src={logo} alt="logo" />
-      <div className="link-section">
+    <footer className="flex flex-col w-full md:flex-row justify-center items-center pt-8 md:justify-around px-[5%] font-markazi text-xl">
+      <img src={logo} alt="logo" className="w-32 md:w-64" />
+      <div className="flex gap-4 mt-4 md:gap-12">
         <section>
-          <ul>
-            <h3>Doormat Navigation</h3>
+          <ul >
+            <h3 className="text-md font-semibold">Doormat Navigation</h3>
             <li>
-              <a href="">Home</a>
+              <a href="" className="text-green-dark">Home</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="" className="text-green-dark">About</a>
             </li>
             <li>
-              <a href="">Menu</a>
+              <a href="" className="text-green-dark">Menu</a>
             </li>
             <li>
-              <a href="">Reservations</a>
+              <a href="" className="text-green-dark">Reservations</a>
             </li>
             <li>
-              <a href="">Order</a>
+              <a href="" className="text-green-dark">Order</a>
             </li>
             <li>
-              <a href="">Login</a>
+              <a href="" className="text-green-dark">Login</a>
             </li>
           </ul>
         </section>
         <section>
           <ul>
-            <h3>Contact</h3>
+            <h3 className="text-md font-semibold">Contact</h3>
             <li>
-              <a href="">Address</a>
+              <a href="" className="text-green-dark">Address</a>
             </li>
             <li>
-              <a href="">Phone Number</a>
+              <a href="" className="text-green-dark">Phone Number</a>
             </li>
             <li>
-              <a href="">Email</a>
+              <a href="" className="text-green-dark">Email</a>
             </li>
           </ul>
         </section>
         <section>
           <ul>
-            <h3>Social Media Links</h3>
+            <h3 className="text-md font-semibold">Social Media Links</h3>
             <li>
-              <a href="">Address</a>
+              <a href="" className="text-green-dark">Address</a>
             </li>
             <li>
-              <a href="">Phone Number</a>
+              <a href="" className="text-green-dark">Phone Number</a>
             </li>
             <li>
-              <a href="">Email</a>
+              <a href="" className="text-green-dark">Email</a>
             </li>
           </ul>
         </section>

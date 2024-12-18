@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
-* {
-	font-family: 'Markazi Text';
-	font-size: 24px;
-	font-weight: 400;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.outer-container {
-	margin-left: 140px;
-	margin-right: 140px;
-}
+

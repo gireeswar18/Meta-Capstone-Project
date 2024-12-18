@@ -3,11 +3,10 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
-function App() {
+function Home() {
   return (
     <>
-      <div className="outer-container">
-        <Navbar />
+      <div className="overflow-x-hidden">
         <Header />
         <Main />
         <Footer />
@@ -16,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
