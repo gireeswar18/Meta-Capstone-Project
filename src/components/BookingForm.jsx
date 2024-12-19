@@ -131,6 +131,7 @@ const BookingForm = () => {
           type="submit"
           value="Make Your reservation"
           className="bg-[rgb(238,153,114)] mx-auto px-3 py-2 md:px-4 md:py-3 mt-5 rounded-md md:rounded-xl text-xs md:text-base w-auto break-words max-w-[200px] whitespace-break-spaces cursor-pointer"
+          aria-label="On Click"
         />
       </form>
     </div>

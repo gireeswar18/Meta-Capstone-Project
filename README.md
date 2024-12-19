@@ -1,8 +1,11 @@
-# React + Vite
+# Capstone Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Made using React JS and Tailwind CSS.
+- Responsiveness made using Flexbox.
 
-Currently, two official plugins are available:
+## Note
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Reserve Table, opens booking form.
+- Book your table.
+- Reservations Option in the Navbar, shows all the reservations.
+
