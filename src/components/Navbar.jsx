@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="">Menu</a>
         </li>
         <li>
-          <a href="">Reservations</a>
+          <a href="/allBookings">Reservations</a>
         </li>
         <li>
           <a href="">Order</a>
@@ -55,7 +55,7 @@ const Navbar = () => {
             <a href="">Menu</a>
           </li>
           <li>
-            <a href="">Reservations</a>
+            <a href="/allBookings">Reservations</a>
           </li>
           <li>
             <a href="">Order</a>

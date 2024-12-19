@@ -52,6 +52,17 @@ const BookingForm = () => {
     e.preventDefault();
 
     if (submitApi()) {
+
+      const reservationKey = `reservation_${Date.now()}`;
+      const reservationDetails = {
+        date: date,
+        time: time,
+        guestCount: guestCount,
+        occasion: occasion,
+      };
+
+      localStorage.setItem(reservationKey, JSON.stringify(reservationDetails))
+
       navigate("/bookingConfirmed", {
         state: {
           date: date,
